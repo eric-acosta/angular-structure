@@ -1,0 +1,12 @@
+<mat-chip-list>
+  <mat-chip color="primary" selected>Pagina 3</mat-chip>
+</mat-chip-list>
+<p>
+  <mat-form-field appearance="legacy">
+    <mat-label>Legacy form field</mat-label>
+    <input matInput placeholder="Placeholder" [(ngModel)]="valor">
+    <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+    <mat-hint>Hint</mat-hint>
+  </mat-form-field>
+</p>
+<button mat-button (click)=informar()>IMPRIME!</button>
